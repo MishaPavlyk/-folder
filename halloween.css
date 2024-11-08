@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+header, section, footer {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: orange;
+}
+
+
+#about {
+    border: 2px solid orange;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#dishes {
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#dishes ul {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
+#dishes li {
+    padding: 5px 0;
+    border-bottom: 1px solid gray;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    width: 100px;
+    height: 100px;
+    background-color: #555;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    color: #ccc;
+    padding: 10px 0;
+    text-align: center;
+    overflow-x: auto;
+}
+
+section {
+    overflow: auto;
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+}
+
+#gallery {
+    position: relative;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.gallery-image {
+    position: absolute;
+}
+
+#dishes img {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.dish-image {
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
