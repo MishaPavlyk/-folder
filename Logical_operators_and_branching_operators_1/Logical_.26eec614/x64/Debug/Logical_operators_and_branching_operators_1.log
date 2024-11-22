@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Logical_operators_and_branching_operators_1\Source.cpp(10,41): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Міша\source\repos\Logical_operators_and_branching_operators_1\Source.cpp(10,57): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  Logical_operators_and_branching_operators_1.vcxproj -> C:\Users\Міша\source\repos\Logical_operators_and_branching_operators_1\x64\Debug\Logical_operators_and_branching_operators_1.exe
