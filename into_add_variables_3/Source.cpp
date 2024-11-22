@@ -6,7 +6,7 @@ int main() {
     cout << "Enter initial velocity (v): ";
     cin >> v;
     cout << "Enter time (t): ";
-    cin >> t;o
+    cin >> t;
     cout << "Enter acceleration (a): ";
     cin >> a;
 
