@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Passing parameters2\Source.cpp(24,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Passing parameters2.vcxproj -> C:\Users\Міша\source\repos\Passing parameters2\x64\Debug\Passing parameters2.exe

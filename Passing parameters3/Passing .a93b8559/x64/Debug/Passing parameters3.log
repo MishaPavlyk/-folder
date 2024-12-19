@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Passing parameters3\Source.cpp(21,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Міша\source\repos\Passing parameters3\Source.cpp(27,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Міша\source\repos\Passing parameters3\Source.cpp(33,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Passing parameters3.vcxproj -> C:\Users\Міша\source\repos\Passing parameters3\x64\Debug\Passing parameters3.exe
