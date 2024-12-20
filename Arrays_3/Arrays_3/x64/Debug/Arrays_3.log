@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Arrays_3\Source.cpp(11,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Arrays_3.vcxproj -> C:\Users\Міша\source\repos\Arrays_3\x64\Debug\Arrays_3.exe
