@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Arrays_3\Source.cpp(8,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Міша\source\repos\Arrays_3\Source.cpp(9,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Міша\source\repos\Arrays_3\Source.cpp(55,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Arrays_3.vcxproj -> C:\Users\Міша\source\repos\Arrays_3\x64\Debug\Arrays_3.exe
