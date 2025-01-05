@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Array_sorting_3\Source.cpp(11,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Міша\source\repos\Array_sorting_3\Source.cpp(12,22): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Array_sorting_3.vcxproj -> C:\Users\Міша\source\repos\Array_sorting_3\x64\Debug\Array_sorting_3.exe
