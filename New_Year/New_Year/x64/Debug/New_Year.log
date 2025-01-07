@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\New_Year\Source.cpp(80,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Міша\source\repos\New_Year\Source.cpp(137,27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Міша\source\repos\New_Year\Source.cpp(185,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Міша\source\repos\New_Year\Source.cpp(231,39): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  New_Year.vcxproj -> C:\Users\Міша\source\repos\New_Year\x64\Debug\New_Year.exe
