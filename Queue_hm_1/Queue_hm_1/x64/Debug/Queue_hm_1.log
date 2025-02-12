@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\Міша\source\repos\Queue_hm_1\Source.cpp(26,76): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\Міша\source\repos\Queue_hm_1\Source.cpp(26,76): warning C4244:         with
+C:\Users\Міша\source\repos\Queue_hm_1\Source.cpp(26,76): warning C4244:         [
+C:\Users\Міша\source\repos\Queue_hm_1\Source.cpp(26,76): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\Міша\source\repos\Queue_hm_1\Source.cpp(26,76): warning C4244:         ]
+  Queue_hm_1.vcxproj -> C:\Users\Міша\source\repos\Queue_hm_1\x64\Debug\Queue_hm_1.exe
