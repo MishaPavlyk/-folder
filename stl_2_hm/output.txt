@@ -1,0 +1,10 @@
+Word frequency dictionary:
+gehts: 1 time(s)
+hallo: 2 time(s)
+ist: 1 time(s)
+mein: 1 time(s)
+misha: 1 time(s)
+name: 1 time(s)
+wie: 1 time(s)
+
+Most frequent word: hallo (2 time(s))
