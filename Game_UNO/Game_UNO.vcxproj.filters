@@ -9,5 +9,13 @@
     <ClCompile Include="Source.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="PlayerClass.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="DeckClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerClass.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="DeckClass.h" />
   </ItemGroup>
 </Project>

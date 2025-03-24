@@ -7,203 +7,119 @@
 #include <string>
 #include <thread>
 #include <chrono>
+#include <random>
+#include "PlayerClass.h"
+#include "DeckClass.h"
 
 using namespace std;
 
-enum Color { RED, BLUE, GREEN, YELLOW, NONE };
-
-string colorToString(Color color) {
-    switch (color) {
-    case RED: return "Red";
-    case BLUE: return "Blue";
-    case GREEN: return "Green";
-    case YELLOW: return "Yellow";
-    default: return "None";
-    }
-}
-
-struct Card {
-    Color color;
-    int value;
-
-    bool operator==(const Card& other) const {
-        return color == other.color && value == other.value;
-    }
-};
-
-class Deck {
-private:
-    vector<Card> cards;
-public:
-    Deck() {
-        refillDeck();
-    }
-    void refillDeck() {
-        cards.clear();
-        for (int c = RED; c <= YELLOW; ++c) {
-            for (int v = 0; v <= 9; ++v) {
-                cards.push_back({ static_cast<Color>(c), v });
-                cards.push_back({ static_cast<Color>(c), v });
-            }
-        }
-        shuffleDeck();
-    }
-    void shuffleDeck() {
-        srand(static_cast<unsigned int>(time(0)));
-        random_shuffle(cards.begin(), cards.end());
-    }
-    Card drawCard() {
-        if (cards.empty()) {
-            cout << "Deck is empty! Refilling..." << endl;
-            refillDeck();
-        }
-        Card top = cards.back();
-        cards.pop_back();
-        return top;
-    }
-};
-
-class Player {
-public:
-    string name;
-    vector<Card> hand;
-    bool isBot;
-    int difficulty;
-
-    Player(string n, bool bot = false, int diff = 1) : name(n), isBot(bot), difficulty(diff) {}
-
-    void drawCard(Deck& deck) {
-        hand.push_back(deck.drawCard());
-    }
-    void showHand() {
-        cout << name << "'s hand: ";
-        for (size_t i = 0; i < hand.size(); ++i) {
-            cout << i + 1 << ". [" << colorToString(hand[i].color) << " " << hand[i].value << "] ";
-        }
-        cout << endl;
-    }
-
-    vector<Card> chooseBestCards(Card topCard) {
-        vector<Card> bestPlay;
-        Card firstMatch = { NONE, -1 };
-
-        for (const auto& card : hand) {
-            if (card.color == topCard.color || card.value == topCard.value) {
-                firstMatch = card;
-                break;
-            }
-        }
-
-        if (firstMatch.value == -1) {
-            return {};
-        }
-
-        for (auto it = hand.begin(); it != hand.end();) {
-            if (it->value == firstMatch.value) {
-                bestPlay.push_back(*it);
-                it = hand.erase(it);
-            }
-            else {
-                ++it;
-            }
-        }
-        return bestPlay;
-    }
-
-    vector<Card> playerTurn(Card topCard, Deck& deck) {
-        showHand();
-        cout << "Top card: [" << colorToString(topCard.color) << " " << topCard.value << "]" << endl;
-        int choice;
-        do {
-            cout << "Choose a card to play (1-" << hand.size() << ") or enter 0 to draw: ";
-            cin >> choice;
-            if (cin.fail()) {
-                cin.clear();
-                cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                choice = -1;
-            }
-            if (choice == 0) {
-                drawCard(deck);
-                return {};
-            }
-        } while (choice < 1 || choice > static_cast<int>(hand.size()));
-
-        Card selectedCard = hand[choice - 1];
-        vector<Card> playedCards;
-        for (auto it = hand.begin(); it != hand.end();) {
-            if (it->value == selectedCard.value) {
-                playedCards.push_back(*it);
-                it = hand.erase(it);
-            }
-            else {
-                ++it;
-            }
-        }
-        return playedCards;
-    }
-};
-
 int main() {
+    srand(static_cast<unsigned int>(time(0))); // Ініціалізація генератора випадкових чисел
     Deck deck;
     int numPlayers, numBots, difficulty;
     vector<Player> players;
 
-    cout << "Enter number of human players (1-4): ";
-    cin >> numPlayers;
-    cout << "Enter number of bots (1-4): ";
-    cin >> numBots;
-    cout << "Choose bot difficulty (1 - Easy, 2 - Hard): ";
-    cin >> difficulty;
+    // Введення кількості гравців (людей)
+    while (true) {
+        cout << "Enter number of human players (1-4): ";
+        cin >> numPlayers;
 
+        if (numPlayers >= 1 && numPlayers <= 4) {
+            break; // Введено коректне значення
+        }
+        else {
+            cout << "Invalid number of human players. Please enter a number between 1 and 4.\n";
+        }
+    }
+
+    // Введення кількості ботів
+    while (true) {
+        cout << "Enter number of bots (1-4): ";
+        cin >> numBots;
+
+        if (numBots >= 1 && numBots <= 4) {
+            break; // Введено коректне значення
+        }
+        else {
+            cout << "Invalid number of bots. Please enter a number between 1 and 4.\n";
+        }
+    }
+
+    // Перевірка загальної кількості гравців (людей + ботів)
+    if (numPlayers + numBots > 4) {
+        cout << "Total players (humans + bots) cannot exceed 4. Exiting...\n";
+        return 1; // Завершення програми, якщо кількість перевищує 4
+    }
+
+    // Введення рівня складності ботів
+    while (true) {
+        cout << "Choose bot difficulty (1 - Easy, 2 - Hard): ";
+        cin >> difficulty;
+
+        if (difficulty == 1 || difficulty == 2) {
+            break; // Введено коректне значення
+        }
+        else {
+            cout << "Invalid difficulty. Please enter 1 for Easy or 2 for Hard.\n";
+        }
+    }
+
+    // Додавання гравців (людей)
     for (int i = 0; i < numPlayers; ++i) {
-        players.push_back(Player("Player " + std::to_string(i + 1)));
-    }
-    for (int i = 0; i < numBots; ++i) {
-        players.push_back(Player("Bot " + std::to_string(i + 1), true, difficulty));
+        players.push_back(Player("Player " + to_string(i + 1)));
     }
 
+    // Додавання ботів
+    for (int i = 0; i < numBots; ++i) {
+        players.push_back(Player("Bot " + to_string(i + 1), true, difficulty));
+    }
+
+    // Роздача початкових карт
     for (auto& player : players) {
         for (int i = 0; i < 5; ++i) {
-            player.drawCard(deck);
+            player.drawCard(deck.drawCard());
         }
     }
 
     cout << "Starting game..." << endl;
     Card topCard = deck.drawCard();
     bool gameOver = false;
+    bool skipNextTurn = false; // Змінна для пропуску ходу наступного гравця
 
+    // Основний цикл гри
     while (!gameOver) {
-        for (auto& player : players) {
-            cout << "\n" << player.name << "'s turn:\n";
-            vector<Card> playedCards;
-            if (player.isBot) {
-                this_thread::sleep_for(chrono::seconds(1));
-                playedCards = player.chooseBestCards(topCard);
-                if (!playedCards.empty()) {
-                    cout << player.name << " plays: ";
-                    for (const auto& card : playedCards) {
-                        cout << "[" << colorToString(card.color) << " " << card.value << "] ";
-                    }
-                    cout << endl;
-                }
-                else {
-                    cout << player.name << " says: 'I take a card and skip my turn.'" << endl;
-                    player.drawCard(deck);
-                    continue;
-                }
+        for (size_t i = 0; i < players.size(); ++i) {
+            Player& currentPlayer = players[i];
+            Player& nextPlayer = players[(i + 1) % players.size()]; // Наступний гравець
+
+            // Перевірка, чи потрібно пропустити хід
+            if (skipNextTurn) {
+                cout << "\n" << currentPlayer.name << "'s turn is skipped because of the STOP card!\n";
+                skipNextTurn = false; // Скидаємо прапорець після пропуску ходу
+                continue; // Пропускаємо хід поточного гравця
             }
-            else {
-                playedCards = player.playerTurn(topCard, deck);
-            }
+
+            cout << "\n" << currentPlayer.name << "'s turn:\n";
+            vector<Card> playedCards = currentPlayer.playerTurn(topCard, deck, nextPlayer);
+
             if (!playedCards.empty()) {
-                topCard = playedCards.front();
+                // Оновлюємо верхню карту
+                topCard = playedCards.back();
+
+                // Перевіряємо, чи зіграно карту "STOP"
+                if (playedCards.back().value == "STOP") {
+                    skipNextTurn = true; // Встановлюємо прапорець для пропуску ходу наступного гравця
+                    cout << nextPlayer.name << "'s turn will be skipped!\n";
+                }
             }
-            if (player.hand.empty()) {
-                cout << "\n" << player.name << " WINS! Game Over." << endl;
+
+            if (currentPlayer.hand.empty()) {
+                cout << "\n" << currentPlayer.name << " WINS! Game Over." << endl;
                 gameOver = true;
                 break;
             }
         }
     }
+
     return 0;
-}
+}w
