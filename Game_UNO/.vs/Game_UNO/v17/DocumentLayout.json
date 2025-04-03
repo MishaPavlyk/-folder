@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\HumanPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:HumanPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\PlayerClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:PlayerClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\IPlayerStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:IPlayerStrategy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\IPlayerStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:IPlayerStrategy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\BotPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:BotPlayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\HumanPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:HumanPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\BotPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:BotPlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\DeckClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:DeckClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\PlayerClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{51808D80-B17B-4EC1-955C-0AE23167C9B6}|Game_UNO.vcxproj|solutionrelative:PlayerClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +70,103 @@
       "DocumentGroups": [
         {
           "DockedHeight": 447,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BotPlayer.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\BotPlayer.cpp",
+              "RelativeDocumentMoniker": "BotPlayer.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\BotPlayer.cpp",
+              "RelativeToolTip": "BotPlayer.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T20:42:38.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T20:40:53.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HumanPlayer.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\HumanPlayer.cpp",
+              "RelativeDocumentMoniker": "HumanPlayer.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\HumanPlayer.cpp",
+              "RelativeToolTip": "HumanPlayer.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T20:40:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BotPlayer.h",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\BotPlayer.h",
+              "RelativeDocumentMoniker": "BotPlayer.h",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\BotPlayer.h",
+              "RelativeToolTip": "BotPlayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T20:40:27.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HumanPlayer.h",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\HumanPlayer.h",
+              "RelativeDocumentMoniker": "HumanPlayer.h",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\HumanPlayer.h",
+              "RelativeToolTip": "HumanPlayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T20:36:05.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T20:35:52.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPlayerStrategy.h",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\IPlayerStrategy.h",
+              "RelativeDocumentMoniker": "IPlayerStrategy.h",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\IPlayerStrategy.h",
+              "RelativeToolTip": "IPlayerStrategy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T20:34:36.547Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -54,87 +181,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Card.cpp",
               "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Card.cpp",
               "RelativeDocumentMoniker": "Card.cpp",
               "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Card.cpp",
               "RelativeToolTip": "Card.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T19:43:26.058Z"
+              "WhenOpened": "2025-03-22T19:43:26.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "DeckClass.cpp",
               "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\DeckClass.cpp",
               "RelativeDocumentMoniker": "DeckClass.cpp",
               "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\DeckClass.cpp",
               "RelativeToolTip": "DeckClass.cpp",
-              "ViewState": "AgIAACYAAAAAAAAAAAAswEQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T19:43:40.922Z"
+              "WhenOpened": "2025-03-22T19:43:40.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "DeckClass.h",
               "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\DeckClass.h",
               "RelativeDocumentMoniker": "DeckClass.h",
               "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\DeckClass.h",
               "RelativeToolTip": "DeckClass.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T19:43:20.893Z"
+              "WhenOpened": "2025-03-22T19:43:20.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Card.h",
               "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Card.h",
               "RelativeDocumentMoniker": "Card.h",
               "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Card.h",
               "RelativeToolTip": "Card.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T19:43:06.29Z"
+              "WhenOpened": "2025-03-22T19:43:06.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T17:49:31.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerClass.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\PlayerClass.cpp",
-              "RelativeDocumentMoniker": "PlayerClass.cpp",
-              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\PlayerClass.cpp",
-              "RelativeToolTip": "PlayerClass.cpp",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAswL0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T17:49:31.802Z"
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-22T17:49:03.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlayerClass.h",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\PlayerClass.h",
-              "RelativeDocumentMoniker": "PlayerClass.h",
-              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\PlayerClass.h",
-              "RelativeToolTip": "PlayerClass.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T17:49:03.373Z"
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-21T17:05:01.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Source.cpp",
-              "RelativeDocumentMoniker": "Source.cpp",
-              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\Source.cpp",
-              "RelativeToolTip": "Source.cpp",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAuwHwAAAACAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IPlayerStrategy.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\IPlayerStrategy.cpp",
+              "RelativeDocumentMoniker": "IPlayerStrategy.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0456\u0448\u0430\\source\\repos\\Game_UNO\\IPlayerStrategy.cpp",
+              "RelativeToolTip": "IPlayerStrategy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-21T17:05:01.86Z",
+              "WhenOpened": "2025-04-01T20:36:25.776Z",
               "EditorCaption": ""
             }
           ]

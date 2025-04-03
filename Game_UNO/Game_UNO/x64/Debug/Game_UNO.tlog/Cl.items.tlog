@@ -1,4 +1,8 @@
+C:\Users\Міша\source\repos\Game_UNO\BotPlayer.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\BotPlayer.obj
 C:\Users\Міша\source\repos\Game_UNO\Card.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\Card.obj
 C:\Users\Міша\source\repos\Game_UNO\DeckClass.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\DeckClass.obj
-C:\Users\Міша\source\repos\Game_UNO\PlayerClass.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\PlayerClass.obj
-C:\Users\Міша\source\repos\Game_UNO\Source.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\Source.obj
+C:\Users\Міша\source\repos\Game_UNO\Game.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\Game.obj
+C:\Users\Міша\source\repos\Game_UNO\HumanPlayer.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\HumanPlayer.obj
+C:\Users\Міша\source\repos\Game_UNO\IPlayerStrategy.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\IPlayerStrategy.obj
+C:\Users\Міша\source\repos\Game_UNO\Player.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\Player.obj
+C:\Users\Міша\source\repos\Game_UNO\main.cpp;C:\Users\Міша\source\repos\Game_UNO\Game_UNO\x64\Debug\main.obj

@@ -1,11 +1,11 @@
-#ifndef CARD_H
-#define CARD_H
+#include "Card.h"
 
-enum Color { RED, BLUE, GREEN, YELLOW, NONE };
-
-struct Card {
-    Color color;
-    int value;
-};
-
-#endif
+std::string colorToString(Color color) {
+    switch (color) {
+    case RED: return "RED";
+    case BLUE: return "BLUE";
+    case GREEN: return "GREEN";
+    case YELLOW: return "YELLOW";
+    default: return "NONE";
+    }
+}
